@@ -36,7 +36,7 @@ A Fully Modular and Efficient Bot <br>
 
 ## Follow me on insta.
 <p align="left">
-  <a href="https://instagram.com/ig_well300"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/><br>
+  <a href="https://instagram.com/on11._.sama"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/><br>
     
 --------
 
