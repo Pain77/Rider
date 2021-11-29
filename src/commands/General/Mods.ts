@@ -25,7 +25,7 @@ export default class Command extends BaseCommand {
 
 
 
-return void M.reply(await request.buffer('https://wallpapercave.com/uwp/uwp1457823.png'),
+return void M.reply(await request.buffer('https://i.imgur.com/mKGLNx4_d.webp?maxwidth=640&shape=thumb&fidelity=medium'),
 MessageType.image,
             undefined,
             undefined,
