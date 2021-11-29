@@ -11,7 +11,7 @@
         "whatsapp-botto"
     ],
     "repository": "https://github.com/Pain77/Rider.git",
-    "logo": "https://i.pinimg.com/originals/e8/c7/41/e8c741e1e4a3c6250c89b7ad7824cbb1.jpg",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUE7NWh2CNVmWdasxYntAoR2Lx8DdKcx5CBQ&usqp=CAU",
     "success_url": "/",
     "env": {
         "PREFIX": {
