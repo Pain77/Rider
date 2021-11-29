@@ -29,7 +29,7 @@ return void M.reply(await request.buffer('https://wallpapercave.com/uwp/uwp14578
 MessageType.image,
             undefined,
             undefined,
-            `🎗 ᴍᴏᴅᴇʀᴀᴛᴏʀꜱ \n╰• ᴄᴏɴᴛᴀᴄᴛ🍁: wa.me/917842346461?text=𝙝𝙚𝙡𝙡𝙤`
+            `🎗 ᴍᴏᴅᴇʀᴀᴛᴏʀꜱ \n╰• ᴄᴏɴᴛᴀᴄᴛ🍁: wa.me/919662713165?text=𝙝𝙚𝙡𝙡𝙤`
                     
 
 )
