@@ -31,7 +31,7 @@ export default class Command extends BaseCommand {
         } catch (err) {
             M.reply(`Profile Picture not Accessible of ${username}`)
             pfp =
-                'https://wallpapercave.com/uwp/uwp1623922.png'
+                'https://images6.alphacoders.com/734/734997.png'
         }
         const exp = (await this.client.getUser(user)).Xp
         let role
@@ -83,7 +83,7 @@ export default class Command extends BaseCommand {
         await M.reply(
             await request.buffer(
                 pfp ||
-                    'https://wallpapercave.com/uwp/uwp1623922.png'
+                    'https://images6.alphacoders.com/734/734997.png'
             ),
             MessageType.image,
             undefined,
