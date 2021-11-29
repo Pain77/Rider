@@ -3,7 +3,7 @@
   <img src="https://64.media.tumblr.com/76b3cd8202b0aaae57624b569615a86d/tumblr_osbk13DT5t1u8x83lo8_400.gifv" border="0"></a>
 
 
-<h1 align="center">𝙮𝙖𝙩𝙤𝙧𝙞 : 𝙉𝙚𝙭𝙩 𝙇𝙚𝙫𝙚𝙡 𝙑𝙤𝙞𝙙 𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥 𝘽𝙊𝙏𝙏𝙊! <img src="https://c.tenor.com/DX2nbOrRxEUAAAAC/yatori-animes.gif" style="border-radius:5;" width="40px" alt=""><br></h1>
+<h1 align="center">𝐑𝐢𝐝𝐞𝐫 : 𝐍𝐞𝐱𝐭 𝐋𝐞𝐯𝐞𝐥 𝐕𝐨𝐢𝐝 𝐁𝐎𝐓𝐓𝐎! <img src="https://c.tenor.com/DX2nbOrRxEUAAAAC/yatori-animes.gif" style="border-radius:5;" width="40px" alt=""><br></h1>
 <p align="center">
 
 
