@@ -16,8 +16,8 @@ export default class Command extends BaseCommand {
         const n = [
             './assets/videos/pain/pain-smile.mp4'
         ]
-        let well = n[Math.floor(Math.random() * n.length)]
-        return void this.client.sendMessage(M.from, { url: well }, MessageType.video, {quoted:M.WAMessage,
+        let pain = n[Math.floor(Math.random() * n.length)]
+        return void this.client.sendMessage(M.from, { url: pain }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `⚠️ Quickly go and die,Bastard. type *${this.client.config.prefix}help*? \n` }
         )
