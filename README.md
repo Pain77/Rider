@@ -3,7 +3,7 @@
   <img src="https://64.media.tumblr.com/76b3cd8202b0aaae57624b569615a86d/tumblr_osbk13DT5t1u8x83lo8_400.gifv" border="0"></a>
 
 
-<h1 align="center">𝙮𝙖𝙩𝙤𝙧𝙞 : 𝙉𝙚𝙭𝙩 𝙇𝙚𝙫𝙚𝙡 𝙑𝙤𝙞𝙙 𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥 𝘽𝙊𝙏𝙏𝙊! <img src="https://c.tenor.com/DX2nbOrRxEUAAAAC/yatori-animes.gif" style="border-radius:5;" width="40px" alt=""><br></h1>
+<h1 align="center">𝙮𝙖𝙩𝙤𝙧𝙞 : 𝙉𝙚𝙭𝙩 𝙇𝙚𝙫𝙚𝙡 𝙑𝙤𝙞𝙙 𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥 𝘽𝙊𝙏𝙏𝙊! <img src="https://c.tenor.com/ugLhmXer8ycAAAAC/fate-rider.gif" style="border-radius:5;" width="40px" alt=""><br></h1>
 <p align="center">
 
 
@@ -36,7 +36,7 @@ A Fully Modular and Efficient Bot <br>
 
 ## Follow me on insta.
 <p align="left">
-  <a href="https://instagram.com/ig_well300"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/><br>
+  <a href="https://instagram.com/on11._.sama"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/><br>
     
 --------
 
