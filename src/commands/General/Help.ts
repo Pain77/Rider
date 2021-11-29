@@ -13,19 +13,19 @@ export default class Command extends BaseCommand {
             category: 'general',
             usage: `${client.config.prefix}help (command_name)`,
             dm: true,
-            aliases: ['h','?','well','menu']
+            aliases: ['h','?','pain','menu']
         })
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            './assets/videos/well/well.mp4', './assets/videos/well/well-1.mp4', './assets/videos/well/well-2.mp4','./assets/videos/well/well-3.mp4','./assets/videos/well/well-4.mp4'
+            './assets/videos/pain/pain.mp4', './assets/videos/pain/pain-1.mp4', './assets/videos/pain/pain-2.mp4','./assets/videos/pain/pain-3.mp4','./assets/videos/pain/pain-4.mp4'
         ]
         let well = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: well }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: `¬ hello! *@${M.sender.username}*.
-¬ ɪ'ᴍ ㄚ卂ㄒㄖ尺丨
+            caption: `¬ Hello! *@${M.sender.username}*.
+¬ ɪ'ᴍ ℝ𝕚𝕕𝕖𝕣 𝕄𝕖𝕕𝕦𝕤𝕒
 ¬ ᴍʏ ᴘʀᴇꜰɪx ɪꜱ - "${this.client.config.prefix}"
 ¬ ᴄᴏᴍᴍᴀɴᴅꜱ ᴀʀᴇ ʟɪꜱᴛᴇᴅ ʙᴇʟᴏᴡ.⬇
 
@@ -103,7 +103,7 @@ export default class Command extends BaseCommand {
 - ${this.client.config.prefix}𝙙𝙚𝙛𝙞𝙣𝙚 
 - ${this.client.config.prefix}𝙜𝙞𝙩𝙝𝙪𝙗 
 
-🍁 𝙉𝙤𝙩𝙚: 𝙐𝙨𝙚 !𝙝𝙚𝙡𝙥 <𝙘𝙤𝙢𝙢𝙖𝙣𝙙_𝙣𝙖𝙢𝙚> 𝙩𝙤 𝙫𝙞𝙚𝙬 𝙩𝙝𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙 𝙞𝙣𝙛𝙤.` }
+♨️ 𝙉𝙤𝙩𝙚: 𝙐𝙨𝙚 !𝙝𝙚𝙡𝙥 <𝙘𝙤𝙢𝙢𝙖𝙣𝙙_𝙣𝙖𝙢𝙚> 𝙩𝙤 𝙫𝙞𝙚𝙬 𝙩𝙝𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙 𝙞𝙣𝙛𝙤.` }
         )
     }
 }
