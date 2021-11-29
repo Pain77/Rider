@@ -21,7 +21,7 @@ export default class Command extends BaseCommand {
         const n = [
             './assets/videos/pain/pain.mp4', './assets/videos/pain/pain-1.mp4', './assets/videos/pain/pain-2.mp4','./assets/videos/pain/pain-3.mp4','./assets/videos/pain/pain-4.mp4'
         ]
-        let well = n[Math.floor(Math.random() * n.length)]
+        let pain = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: pain }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `¬ Hello! *@${M.sender.username}*.
@@ -29,7 +29,7 @@ export default class Command extends BaseCommand {
 ¬ ᴍʏ ᴘʀᴇꜰɪx ɪꜱ - "${this.client.config.prefix}"
 ¬ ᴄᴏᴍᴍᴀɴᴅꜱ ᴀʀᴇ ʟɪꜱᴛᴇᴅ ʙᴇʟᴏᴡ.⬇
 
-🄰🄽🄸🄼🄴 〽
+🄰🄽🄸🄼🄴 ✨
 
 - ${this.client.config.prefix}𝙖𝙣𝙞𝙢𝙚𝙦𝙪𝙤𝙩𝙚 
 - ${this.client.config.prefix}𝙖𝙣𝙞𝙢𝙚𝙘𝙝𝙖𝙧 
@@ -38,7 +38,7 @@ export default class Command extends BaseCommand {
 - ${this.client.config.prefix}𝙣𝙚𝙠𝙤 
 - ${this.client.config.prefix}𝙬𝙖𝙞𝙛𝙪
 
-🄼🄴🄳🄸🄰 〽
+🄼🄴🄳🄸🄰 ✨
 
 - ${this.client.config.prefix}𝙥𝙡𝙖𝙮 
 - ${this.client.config.prefix}𝙨𝙥𝙤𝙩𝙞𝙛𝙮 
@@ -48,7 +48,7 @@ export default class Command extends BaseCommand {
 - ${this.client.config.prefix}𝙜𝙤𝙤𝙜𝙡𝙚 
 - ${this.client.config.prefix}𝙡𝙮𝙧𝙞𝙘𝙨
 
-🄵🅄🄽 〽
+🄵🅄🄽 ✨
 
 - ${this.client.config.prefix}𝙗𝙤𝙣𝙠 
 - ${this.client.config.prefix}𝙘𝙝𝙚𝙨𝙨 
@@ -60,7 +60,7 @@ export default class Command extends BaseCommand {
 - ${this.client.config.prefix}𝙨𝙖𝙛𝙚𝙟𝙤𝙠𝙚 
 - ${this.client.config.prefix}𝙨𝙝𝙞𝙥
 
-🄶🄴🄽🄴🅁🄰🄻 〽
+🄶🄴🄽🄴🅁🄰🄻 ✨
 
 - ${this.client.config.prefix}𝙖𝙙𝙢𝙞𝙣𝙨 
 - ${this.client.config.prefix}𝙚𝙫𝙚𝙧𝙮𝙤𝙣𝙚 
@@ -72,13 +72,13 @@ export default class Command extends BaseCommand {
 - ${this.client.config.prefix}𝙨𝙘𝙧𝙚𝙚𝙣𝙨𝙝𝙤𝙩 
 - ${this.client.config.prefix}𝙙𝙚𝙡𝙚𝙩𝙚
 
-🄼🄸🅂🄲 〽
+🄼🄸🅂🄲 ✨
 
 - ${this.client.config.prefix}𝙧𝙚𝙩𝙧𝙞𝙚𝙫𝙚 
 - ${this.client.config.prefix}𝙝𝙞 
 - ${this.client.config.prefix}𝙮𝙖𝙩𝙤𝙧𝙞
 
-🄼🄾🄳🄴🅁🄰🅃🄸🄾🄽 〽
+🄼🄾🄳🄴🅁🄰🅃🄸🄾🄽 ✨
 
 - ${this.client.config.prefix}𝙖𝙘𝙩𝙞𝙫𝙖𝙩𝙚 
 - ${this.client.config.prefix}𝙙𝙚𝙖𝙘𝙩𝙞𝙫𝙖𝙩𝙚 
@@ -90,14 +90,14 @@ export default class Command extends BaseCommand {
 - ${this.client.config.prefix}𝙤𝙥𝙚𝙣 
 - ${this.client.config.prefix}𝙧𝙚𝙫𝙤𝙠𝙚
 
-🅄🅃🄸🄻🅂 〽
+🅄🅃🄸🄻🅂 ✨
 
 - ${this.client.config.prefix}𝙗𝙡𝙪𝙧 
 - ${this.client.config.prefix}𝙨𝙩𝙞𝙘𝙠𝙚𝙧 
 - ${this.client.config.prefix}𝙨𝙪𝙗𝙧𝙚𝙙 
 - ${this.client.config.prefix}𝙨𝙩𝙚𝙖𝙡
 
-🄴🄳🅄🄲🄰🅃🄸🅅🄴 〽
+🄴🄳🅄🄲🄰🅃🄸🅅🄴 ✨
 
 - ${this.client.config.prefix}𝙘𝙤𝙫𝙞𝙙 
 - ${this.client.config.prefix}𝙙𝙚𝙛𝙞𝙣𝙚 
