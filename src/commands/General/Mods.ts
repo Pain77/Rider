@@ -29,7 +29,7 @@ return void M.reply(await request.buffer('https://i.imgur.com/mKGLNx4_d.webp?max
 MessageType.image,
             undefined,
             undefined,
-            `🎗 ᴍᴏᴅᴇʀᴀᴛᴏʀꜱ \n╰• ᴄᴏɴᴛᴀᴄᴛ🍁: wa.me/919662713165?text=𝙝𝙚𝙡𝙡𝙤`
+            `🌠 ᴍᴏᴅᴇʀᴀᴛᴏʀꜱ \n╰• ᴄᴏɴᴛᴀᴄᴛ🍁: wa.me/919662713165?text=𝙝𝙚𝙡𝙡𝙤`
                     
 
 )
