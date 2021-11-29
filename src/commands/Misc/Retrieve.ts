@@ -9,7 +9,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'retrieve',
-            description: 'Well....',
+            description: 'Pain....',
             adminOnly: true,
             category: 'misc',
             usage: `${client.config.prefix}retrieve`
