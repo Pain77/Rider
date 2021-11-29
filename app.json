@@ -1,5 +1,5 @@
 {
-    "name": "yatori",
+    "name": "Rider",
     "keywords": [
         "bot",
         "whatsapp",
@@ -10,7 +10,7 @@
         "whatsapp-sticker-bot",
         "whatsapp-botto"
     ],
-    "repository": "https://github.com/well300/yatori.git",
+    "repository": "https://github.com/Pain77/Rider.git",
     "logo": "https://i.pinimg.com/originals/e8/c7/41/e8c741e1e4a3c6250c89b7ad7824cbb1.jpg",
     "success_url": "/",
     "env": {
@@ -24,7 +24,7 @@
         "MODS": {
             "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
             "required": false,
-            "value": "917842346461"
+            "value": "919662713165"
         },
         "CRON": {
             "description": "Cron string to clear chats in a cycle",
