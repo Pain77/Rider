@@ -22,7 +22,7 @@ export default class Command extends BaseCommand {
             './assets/videos/pain/pain.mp4', './assets/videos/pain/pain-1.mp4', './assets/videos/pain/pain-2.mp4','./assets/videos/pain/pain-3.mp4','./assets/videos/pain/pain-4.mp4'
         ]
         let well = n[Math.floor(Math.random() * n.length)]
-        return void this.client.sendMessage(M.from, { url: well }, MessageType.video, {quoted:M.WAMessage,
+        return void this.client.sendMessage(M.from, { url: pain }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `¬ Hello! *@${M.sender.username}*.
 ¬ ɪ'ᴍ ℝ𝕚𝕕𝕖𝕣 𝕄𝕖𝕕𝕦𝕤𝕒
