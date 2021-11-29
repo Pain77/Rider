@@ -1,0 +1,61 @@
+{
+    "name": "yatori",
+    "keywords": [
+        "bot",
+        "whatsapp",
+        "stickers",
+        "whatsapp-stickers",
+        "anime",
+        "whatsapp-bot",
+        "whatsapp-sticker-bot",
+        "whatsapp-botto"
+    ],
+    "repository": "https://github.com/well300/yatori.git",
+    "logo": "https://i.pinimg.com/originals/e8/c7/41/e8c741e1e4a3c6250c89b7ad7824cbb1.jpg",
+    "success_url": "/",
+    "env": {
+        "PREFIX": {
+            "description": "Prefix of your bot",
+            "value": "!"
+        },
+        "SESSION": {
+            "description": "A string for the session to be classified and to get access to the server endpoints"
+        },
+        "MODS": {
+            "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
+            "required": false,
+            "value": "917842346461"
+        },
+        "CRON": {
+            "description": "Cron string to clear chats in a cycle",
+            "required": false,
+            "value": "null"
+        },
+        "MONGO_URI": {
+            "description": "A secret String for Mongodb Connection.(Required)"
+        },
+        "GOOGLE_API_KEY": {
+            "description": "Google API key for Google searches (Not Required)",
+            "required": false
+        },
+        "CHAT_BOT_URL": {
+            "description": "BrainShop API Brain url",
+            "required": false,
+            "value": "http://api.brainshop.ai/get?bid=158484&key=AF9RvRrK14AhY46N&uid=[uid]&msg=[msg]"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/PrajjwalDatir/heroku-buildpack-imagemagick.git"
+        },
+        {
+            "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+}
