@@ -29,7 +29,7 @@ export default class Command extends BaseCommand {
 			return void (await M.reply(`Please provide the Broadcast Message.`));
 		const term = joined.trim();
 		const gifs = [
-			"https://lh6.googleusercontent.com/-GbPTDTkmu0s/UyYWpBjXHvI/AAAAAAAABEo/CY4FmefTO5Q/s0-d/tumblr_myyt3ucFZj1s80y4no1_500.gif","https://i.pinimg.com/originals/02/b6/a9/02b6a939b667f387684124711de72ec2.gif",
+			"https://c.tenor.com/QF_AYmkUX4IAAAAC/medusa-medusa-rider.gif","https://c.tenor.com/4sd1GGQ_SkIAAAAC/medusa-medusa-fate.gif",
 		];
 		const selected = gifs[Math.floor(Math.random() * gifs.length)];
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -40,7 +40,7 @@ export default class Command extends BaseCommand {
 			.map((jids) => (jids.includes("g.us") ? jids : null))
 			.filter((v) => v);
 		for (let i = 0; i < chats.length; i++) {
-			const text = `*「 🎗 𝚢𝚊𝚝𝚘𝚛𝚒 𝚋𝚛𝚘𝚍𝚌𝚊𝚜𝚝  」*\n\n 🍁 𝘢𝘯𝘯𝘰𝘶𝘯𝘤𝘦𝘮𝘦𝘯𝘵 : ${term}\n\n 🎐𝘽𝙮 𝙊𝙬𝙣𝙚𝙧 :*${M.sender.username}*`;
+			const text = `*「 🎗 𝚁𝚒𝚍𝚎𝚛 𝚋𝚛𝚘𝚍𝚌𝚊𝚜𝚝  」*\n\n 🍁 𝘢𝘯𝘯𝘰𝘶𝘯𝘤𝘦𝘮𝘦𝘯𝘵 : ${term}\n\n 🎐𝘽𝙮 𝙊𝙬𝙣𝙚𝙧 :*${M.sender.username}*`;
 			this.client.sendMessage(chats[i], { url: selected }, MessageType.video, {
 				mimetype: Mimetype.gif,
 				caption: `${text}`,
