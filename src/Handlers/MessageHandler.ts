@@ -40,7 +40,7 @@ export default class MessageHandler {
                         return void M.reply(res.data.cnt)
                     })
                     .catch(() => {
-                        M.reply(`well...!`)
+                        M.reply(`Pain...!`)
                     })
             }
         }
@@ -69,17 +69,17 @@ export default class MessageHandler {
                 sender.username
             )} in ${chalk.cyanBright(groupMetadata?.subject || 'DM')}`
         )
-        if (!command) return void M.reply('🍁 𝙽𝚘 𝚜𝚞𝚌𝚑 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝙱𝙰𝙺𝙰 ! 𝙳𝚘 𝚢𝚘𝚞 𝚖𝚎𝚊𝚗 !help ?')
+        if (!command) return void M.reply('♨️ 𝙽𝚘 𝚜𝚞𝚌𝚑 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝙱𝙰𝙺𝙰 ! 𝙳𝚘 𝚢𝚘𝚞 𝚖𝚎𝚊𝚗 !help ?')
         const user = await this.client.getUser(M.sender.jid)
-        if (user.ban) return void M.reply("🍁 𝙼𝚢 𝙱𝚊𝚋𝚢 𝚒𝚜 𝙱𝚊𝚗𝚗𝚎𝚍 𝚈𝚘𝚞 𝚏𝚛𝚘𝚖 𝚞𝚜𝚒𝚗𝚐 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜 𝚃𝚢𝚙𝚎 !𝚖𝚘𝚍 𝚝𝚘 𝚌𝚘𝚗𝚝𝚊𝚌𝚝 𝚑𝚒𝚖.")
+        if (user.ban) return void M.reply("♨️ 𝙼𝚢 𝙱𝚊𝚋𝚢 𝚒𝚜 𝙱𝚊𝚗𝚗𝚎𝚍 𝚈𝚘𝚞 𝚏𝚛𝚘𝚖 𝚞𝚜𝚒𝚗𝚐 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜 𝚃𝚢𝚙𝚎 !𝚖𝚘𝚍 𝚝𝚘 𝚌𝚘𝚗𝚝𝚊𝚌𝚝 𝚑𝚒𝚖.")
         const state = await this.client.DB.disabledcommands.findOne({ command: command.config.command })
         if (state) return void M.reply(`❌ This command is disabled${state.reason ? ` for ${state.reason}` : ''}`)
-        if (!command.config?.dm && M.chat === 'dm') return void M.reply('🍁 𝚃𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚌𝚊𝚗 𝚘𝚗𝚕𝚢 𝚋𝚎 𝚞𝚜𝚎𝚍 𝚒𝚗 𝚐𝚛𝚘𝚞𝚙𝚜')
+        if (!command.config?.dm && M.chat === 'dm') return void M.reply('♨️ 𝚃𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚌𝚊𝚗 𝚘𝚗𝚕𝚢 𝚋𝚎 𝚞𝚜𝚎𝚍 𝚒𝚗 𝚐𝚛𝚘𝚞𝚙𝚜')
         if (command.config?.modsOnly && !this.client.config.mods?.includes(M.sender.jid)) {
-            return void M.reply(`🍁 𝙾𝚗𝚕𝚢 𝚖𝚢 𝚍𝚊𝚛𝚕𝚒𝚗𝚐 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍`)
+            return void M.reply(`♨️ 𝙾𝚗𝚕𝚢 𝚖𝚢 𝚍𝚊𝚛𝚕𝚒𝚗𝚐 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍`)
         }
         if (command.config?.adminOnly && !M.sender.isAdmin)
-            return void M.reply(`🍁 𝙾𝚗𝚕𝚢 𝚊𝚍𝚖𝚒𝚗𝚜 𝚊𝚛𝚎 𝚊𝚕𝚕𝚘𝚠𝚎𝚍 𝚝𝚘 𝚞𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍`)
+            return void M.reply(`♨️ 𝙾𝚗𝚕𝚢 𝚊𝚍𝚖𝚒𝚗𝚜 𝚊𝚛𝚎 𝚊𝚕𝚕𝚘𝚠𝚎𝚍 𝚝𝚘 𝚞𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍`)
         try {
             await command.run(M, this.parseArgs(args))
             if (command.config.baseXp) {
