@@ -3,7 +3,7 @@
   <img src="https://64.media.tumblr.com/acde1cb4db2b48f86aa4e8a5e2ed2602/601eb147a89ddcf5-e8/s540x810/c730b4959adb710b586cd0064c6c5f9a3fe24b73.gifv" border="0"></a>
 
 
-<h1 align="center">𝙮𝙖𝙩𝙤𝙧𝙞 : 𝙉𝙚𝙭𝙩 𝙇𝙚𝙫𝙚𝙡 𝙑𝙤𝙞𝙙 𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥 𝘽𝙊𝙏𝙏𝙊! <img src="https://c.tenor.com/ugLhmXer8ycAAAAC/fate-rider.gif" style="border-radius:5;" width="40px" alt=""><br></h1>
+<h1 align="center">𝐑𝐢𝐝𝐞𝐫 : 𝐍𝐞𝐱𝐭 𝐋𝐞𝐯𝐞𝐥 𝐕𝐨𝐢𝐝 𝐁𝐎𝐓𝐓𝐎! <img src="https://c.tenor.com/ugLhmXer8ycAAAAC/fate-rider.gif" style="border-radius:5;" width="40px" alt=""><br></h1>
 <p align="center">
 
 
