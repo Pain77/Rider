@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const kacchan = 
-			"https://c.tenor.com/GG-wymFE0scAAAPo/katsuki-bakugou-bakugou.mp4";
+			"https://c.tenor.com/GbKP-leU6WsAAAPo/fate-stay.mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: kacchan },
@@ -28,25 +28,23 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `- 🄶🄴🄽🄴🅁🄰🄻 🎐
+				caption: `-🄶🄴🄽🄴🅁🄰🄻 🍁
 
-🎗 ${this.client.config.prefix}𝙖𝙙𝙢𝙞𝙣𝙨 
-🎗 ${this.client.config.prefix}𝙚𝙭𝙥 
-🎗 ${this.client.config.prefix}𝙝𝙚𝙡𝙥 
-🎗 ${this.client.config.prefix}𝙝𝙞 
-🎗 ${this.client.config.prefix}𝙞𝙣𝙛𝙤 
-🎗 ${this.client.config.prefix}𝙞𝙣𝙫𝙞𝙩𝙚𝙡𝙞𝙣𝙠 
-🎗 ${this.client.config.prefix}𝙠𝙖𝙘𝙘𝙝𝙖𝙣 
-🎗 ${this.client.config.prefix}𝙢𝙤𝙙𝙨 
-🎗 ${this.client.config.prefix}𝙥𝙧𝙤𝙛𝙞𝙡𝙚 
-🎗 ${this.client.config.prefix}𝙧𝙖𝙣𝙠
+────────────────
+
+〽 ${this.client.config.prefix}𝙖𝙙𝙢𝙞𝙣𝙨 
+〽 ${this.client.config.prefix}𝙚𝙭𝙥 
+〽 ${this.client.config.prefix}𝙝𝙚𝙡𝙥 
+〽 ${this.client.config.prefix}𝙝𝙞 
+〽 ${this.client.config.prefix}𝙞𝙣𝙛𝙤 
+〽 ${this.client.config.prefix}𝙞𝙣𝙫𝙞𝙩𝙚𝙡𝙞𝙣𝙠 
+〽 ${this.client.config.prefix}𝙍𝙞𝙙𝙚𝙧 
+〽 ${this.client.config.prefix}𝙢𝙤𝙙𝙨 
+〽 ${this.client.config.prefix}𝙥𝙧𝙤𝙛𝙞𝙡𝙚 
+〽 ${this.client.config.prefix}𝙧𝙖𝙣𝙠
     
-───▄▄─▄████▄▐▄▄▄▌
-──▐──████▀███▄█▄▌
-▐─▌──█▀▌──▐▀▌▀█▀
-─▀───▌─▌──▐─▌
-─────█─█──▐▌█
-💣💣💣💣💣💣💣
+────────────────
+
  `,
 			}
 		);
