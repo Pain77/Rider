@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const kacchan = 
-			"https://c.tenor.com/OBCzNJ0Gt8oAAAPo/bakugou-katsuki-bakugou.mp4";
+			"https://c.tenor.com/uAE7ryQBbLgAAAPo/medusa-fate.mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: kacchan },
@@ -28,29 +28,27 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `- 🄼🄾🄳🄴🅁🄰🅃🄸🄾🄽 🎐
+				caption: `-🄼🄾🄳🄴🅁🄰🅃🄸🄾🄽 🍁
+				
+────────────────				
 
-🎗 ${this.client.config.prefix}𝙖𝙘𝙩𝙞𝙫𝙖𝙩𝙚 
-🎗 ${this.client.config.prefix}𝙘𝙡𝙤𝙨𝙚 
-🎗 ${this.client.config.prefix}𝙙𝙚𝙖𝙘𝙩𝙞𝙫𝙖𝙩𝙚 
-🎗 ${this.client.config.prefix}𝙙𝙚𝙡𝙚𝙩𝙚 
-🎗 ${this.client.config.prefix}𝙙𝙚𝙢𝙤𝙩𝙚 
-🎗 ${this.client.config.prefix}𝙚𝙫𝙚𝙧𝙮𝙤𝙣𝙚 
-🎗 ${this.client.config.prefix}𝙜𝙧𝙤𝙪𝙥𝙘𝙝𝙖𝙣𝙜𝙚 
-🎗 ${this.client.config.prefix}𝙤𝙥𝙚𝙣 
-🎗 ${this.client.config.prefix}𝙥𝙧𝙤𝙢𝙤𝙩𝙚 
-🎗 ${this.client.config.prefix}𝙥𝙪𝙧𝙜𝙚 
-🎗 ${this.client.config.prefix}𝙧𝙚𝙢𝙤𝙫𝙚 
-🎗 ${this.client.config.prefix}𝙖𝙙𝙙
-🎗 ${this.client.config.prefix}𝙧𝙚𝙫𝙤𝙠𝙚
+〽 ${this.client.config.prefix}𝙖𝙘𝙩𝙞𝙫𝙖𝙩𝙚 
+〽 ${this.client.config.prefix}𝙘𝙡𝙤𝙨𝙚 
+〽 ${this.client.config.prefix}𝙙𝙚𝙖𝙘𝙩𝙞𝙫𝙖𝙩𝙚 
+〽 ${this.client.config.prefix}𝙙𝙚𝙡𝙚𝙩𝙚 
+〽 ${this.client.config.prefix}𝙙𝙚𝙢𝙤𝙩𝙚 
+〽 ${this.client.config.prefix}𝙚𝙫𝙚𝙧𝙮𝙤𝙣𝙚 
+〽 ${this.client.config.prefix}𝙜𝙧𝙤𝙪𝙥𝙘𝙝𝙖𝙣𝙜𝙚 
+〽 ${this.client.config.prefix}𝙤𝙥𝙚𝙣 
+〽 ${this.client.config.prefix}𝙥𝙧𝙤𝙢𝙤𝙩𝙚 
+〽 ${this.client.config.prefix}𝙥𝙪𝙧𝙜𝙚 
+〽 ${this.client.config.prefix}𝙧𝙚𝙢𝙤𝙫𝙚 
+〽 ${this.client.config.prefix}𝙖𝙙𝙙
+〽 ${this.client.config.prefix}𝙧𝙚𝙫𝙤𝙠𝙚
     
     
-───▄▄─▄████▄▐▄▄▄▌
-──▐──████▀███▄█▄▌
-▐─▌──█▀▌──▐▀▌▀█▀
-─▀───▌─▌──▐─▌
-─────█─█──▐▌█
-💣💣💣💣💣💣💣💣
+────────────────
+
  `,
 			}
 		);
