@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const kacchan = 
-			"https://c.tenor.com/93eUTFPXSyYAAAPo/bakugo-my-hero-academia.mp4";
+			"https://c.tenor.com/do4JyZjqXpMAAAPo/medusa-rider.mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: kacchan },
@@ -28,21 +28,18 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `- 🄴🄳🅄🄲🄰🅃🄸🅅🄴 🎐
+				caption: `-🄴🄳🅄🄲🄰🅃🄸🅅🄴 🍁
+────────────────				
 
-🎗 ${this.client.config.prefix}𝙘𝙖𝙡𝙘𝙪𝙡𝙖𝙩𝙤𝙧 
-🎗 ${this.client.config.prefix}𝙚𝙡𝙚𝙢𝙚𝙣𝙩 
-🎗 ${this.client.config.prefix}𝙩𝙧𝙞𝙫𝙞𝙖 
-🎗 ${this.client.config.prefix}𝙪𝙧𝙗𝙖𝙣𝙙𝙞𝙘𝙩𝙞𝙤𝙣𝙖𝙧𝙮 
-🎗 ${this.client.config.prefix}𝙬𝙚𝙖𝙩𝙝𝙚𝙧
-🎗 ${this.client.config.prefix}𝙜𝙞𝙩𝙝𝙪𝙗
+〽 ${this.client.config.prefix}𝙘𝙖𝙡𝙘𝙪𝙡𝙖𝙩𝙤𝙧 
+〽 ${this.client.config.prefix}𝙚𝙡𝙚𝙢𝙚𝙣𝙩 
+〽 ${this.client.config.prefix}𝙩𝙧𝙞𝙫𝙞𝙖 
+〽 ${this.client.config.prefix}𝙪𝙧𝙗𝙖𝙣𝙙𝙞𝙘𝙩𝙞𝙤𝙣𝙖𝙧𝙮 
+〽 ${this.client.config.prefix}𝙬𝙚𝙖𝙩𝙝𝙚𝙧
+〽 ${this.client.config.prefix}𝙜𝙞𝙩𝙝𝙪𝙗
     
-───▄▄─▄████▄▐▄▄▄▌
-──▐──████▀███▄█▄▌
-▐─▌──█▀▌──▐▀▌▀█▀
-─▀───▌─▌──▐─▌
-─────█─█──▐▌█
-💣💣💣💣💣💣💣💣
+────────────────
+
  `,
 			}
 		);
