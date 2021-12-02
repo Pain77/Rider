@@ -18,10 +18,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const kacchan =
-			"https://c.tenor.com/GG-wymFE0scAAAPo/katsuki-bakugou-bakugou.mp4";
-			"https://c.tenor.com/iv8N2t7pEXAAAAPo/bakugou-katsuki-anime.mp4";
-			"https://c.tenor.com/93eUTFPXSyYAAAPo/bakugo-my-hero-academia.mp4";
-			"https://c.tenor.com/LhRhrogP7WgAAAPo/bakugou-katsuki-bakugou.mp4";
+			"https://c.tenor.com/PeB6wxf5EBEAAAPo/fate-stay-night-heavens-feel.mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: kacchan },
