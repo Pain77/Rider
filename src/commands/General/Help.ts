@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const kacchan = 
-			"https://c.tenor.com/LhRhrogP7WgAAAPo/bakugou-katsuki-bakugou.mp4";
+			"https://c.tenor.com/3ES6GVoDHjUAAAPo/medusa-rider.mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: kacchan },
@@ -29,51 +29,44 @@ export default class Command extends BaseCommand {
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
 				caption: `¬ hello! *@${M.sender.username}*.
-¬ ɪ'ᴍ 𝙠𝙖𝙘𝙘𝙝𝙖𝙣 💣 〽
+¬ ɪ'ᴍ 𝙍𝙞𝙙𝙚𝙧 〽
 ¬ ᴍʏ ᴘʀᴇꜰɪx ɪꜱ - "${this.client.config.prefix}"
 ¬ ᴄᴏᴍᴍᴀɴᴅꜱ ᴀʀᴇ ʟɪꜱᴛᴇᴅ ʙᴇʟᴏᴡ.⬇
 
-- 🄴🄳🅄🄲🄰🅃🄸🅅🄴 🎗
+-🄴🄳🅄🄲🄰🅃🄸🅅🄴 🍁
 
-🎐 ${this.client.config.prefix}h1
+🧧 ${this.client.config.prefix}h1
 
-- 🄵🅄🄽 🎗
+-🄵🅄🄽 🍁
 
-🎐 ${this.client.config.prefix}h2
+🧧 ${this.client.config.prefix}h2
 
-- 🄶🄴🄽🄴🅁🄰🄻 🎗
+-🄶🄴🄽🄴🅁🄰🄻 🍁
 
-🎐 ${this.client.config.prefix}h3
+🧧 ${this.client.config.prefix}h3
 
-- 🄼🄴🄳🄸🄰 🎗
+-🄼🄴🄳🄸🄰 🍁
 
-🎐 ${this.client.config.prefix}h4
+🧧 ${this.client.config.prefix}h4
 
-- 🄼🄾🄳🄴🅁🄰🅃🄸🄾🄽 🎗
+-🄼🄾🄳🄴🅁🄰🅃🄸🄾🄽 🍁
 
-🎐 ${this.client.config.prefix}h5
+🧧 ${this.client.config.prefix}h5
 
-- 🅄🅃🄸🄻🅂 🎗
+-🅄🅃🄸🄻🅂 🍁
 
-🎐 ${this.client.config.prefix}h6
+🧧 ${this.client.config.prefix}h6
 
-- 🅆🄴🄴🄱 🎗
+-🅆🄴🄴🄱 🍁
 
-🎐 ${this.client.config.prefix}h7
+🧧 ${this.client.config.prefix}h7
 
-- 🄽🅂🄵🅆 🍒
+-🄽🅂🄵🅆 🍒
 
-🎐 ${this.client.config.prefix}h8
+🧧 ${this.client.config.prefix}h8
 
-📝 𝙉𝙤𝙩𝙚: 𝙐𝙨𝙚 !𝙝𝙚𝙡𝙥 <𝙘𝙤𝙢𝙢𝙖𝙣𝙙_𝙣𝙖𝙢𝙚> 𝙩𝙤 𝙫𝙞𝙚𝙬 𝙩𝙝𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙 𝙞𝙣𝙛𝙤
+📝 𝙉𝙤𝙩𝙚: 🧧 ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ɪꜱꜱᴜᴇꜱ ᴡɪᴛʜ ᴛʜᴇ ʙᴏᴛ ᴏʀ ᴀɴʏ ᴇʀʀᴏʀ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ʙᴏᴛ ᴏᴡɴᴇʀ. ᴛʏᴘᴇ " ${this.client.config.prefix}ᴏᴡɴᴇʀ " ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ!
 
-───▄▄─▄████▄▐▄▄▄▌
-──▐──████▀███▄█▄▌
-▐─▌──█▀▌──▐▀▌▀█▀
-─▀───▌─▌──▐─▌
-─────█─█──▐▌█
-
-💣💣💣💣💣💣💣💣
  `,
 			}
 		);
