@@ -11,7 +11,7 @@
       "whatsapp-sticker-bot",
       "whatsapp-botto"
   ],
-  "repository": "https://github.com/pain77/Rider",
+  "repository": "https://github.com/pain77/Rider.git",
   "logo": "https://mocah.org/uploads/posts/342905-Medusa-Fate-Grand-Order-FGO-Video-Game-Fate-Series-Anime-Girls-Fate-Stay-Night.jpg",
   "success_url": "/",
   "env": {
