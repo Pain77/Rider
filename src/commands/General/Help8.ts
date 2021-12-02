@@ -28,7 +28,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `- 🄽🅂🄵🅆 🍊
+				caption: `-🄽🅂🄵🅆 🍊
 
 ‣ ᴀɴᴀʟ, ʙʟᴏᴡᴊᴏʙ, ᴍᴀɪᴅ, ᴍᴀꜱᴛᴜʀʙᴀᴛɪᴏɴ, ɴꜱꜰᴡᴅᴏᴜᴊɪɴ, ɴꜱꜰᴡᴋɪᴛꜱᴜɴᴇ, ɴʜᴇɴᴛᴀɪ, ɴꜱꜰᴡᴘᴀᴘᴇʀ, ɴꜱꜰᴡɴᴇᴋᴏ, ɴꜱꜰᴡᴡᴀɪꜰᴜ, ᴘᴜꜱꜱʏ, ᴛʜɪɢʜꜱ.
     
@@ -38,7 +38,7 @@ export default class Command extends BaseCommand {
 ▐─▌──█▀▌──▐▀▌▀█▀
 ─▀───▌─▌──▐─▌
 ─────█─█──▐▌█
-💣💣💣💣💣💣💣💣
+
  `,
 			}
 		);
