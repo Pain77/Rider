@@ -11,7 +11,7 @@
   
 A Fully Modular and Efficient Bot <br>
   
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/pain77/Rider/blob/main)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Pain77/Rider)
 
 
 
