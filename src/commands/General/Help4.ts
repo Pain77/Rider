@@ -28,24 +28,22 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `- 🄼🄴🄳🄸🄰 🎐
+				caption: `-🄼🄴🄳🄸🄰 🍁
+		
+────────────────				
 
-🎗 ${this.client.config.prefix}𝙠𝙖𝙧𝙖𝙤𝙠𝙚 
-🎗 ${this.client.config.prefix}𝙡𝙮𝙧𝙞𝙘𝙨 
-🎗 ${this.client.config.prefix}𝙥𝙡𝙖𝙮 
-🎗 ${this.client.config.prefix}𝙨𝙥𝙤𝙩𝙞𝙛𝙮 
-🎗 ${this.client.config.prefix}𝙮𝙩𝙖𝙪𝙙𝙞𝙤 
-🎗 ${this.client.config.prefix}𝙮𝙩𝙨𝙚𝙖𝙧𝙘𝙝 
-🎗 ${this.client.config.prefix}𝙮𝙩𝙫𝙞𝙙𝙚𝙤
-🎗 ${this.client.config.prefix}𝙞𝙜𝙪𝙨𝙚𝙧[𝙣𝙖𝙢𝙚]
-🎗 ${this.client.config.prefix}𝙥𝙞𝙣𝙩𝙚𝙧𝙚𝙨𝙩
+〽 ${this.client.config.prefix}𝙠𝙖𝙧𝙖𝙤𝙠𝙚 
+〽 ${this.client.config.prefix}𝙡𝙮𝙧𝙞𝙘𝙨 
+〽 ${this.client.config.prefix}𝙥𝙡𝙖𝙮 
+〽 ${this.client.config.prefix}𝙨𝙥𝙤𝙩𝙞𝙛𝙮 
+〽 ${this.client.config.prefix}𝙮𝙩𝙖𝙪𝙙𝙞𝙤 
+〽 ${this.client.config.prefix}𝙮𝙩𝙨𝙚𝙖𝙧𝙘𝙝 
+〽 ${this.client.config.prefix}𝙮𝙩𝙫𝙞𝙙𝙚𝙤
+〽 ${this.client.config.prefix}𝙞𝙜𝙪𝙨𝙚𝙧[𝙣𝙖𝙢𝙚]
+〽 ${this.client.config.prefix}𝙥𝙞𝙣𝙩𝙚𝙧𝙚𝙨𝙩
 
-───▄▄─▄████▄▐▄▄▄▌
-──▐──████▀███▄█▄▌
-▐─▌──█▀▌──▐▀▌▀█▀
-─▀───▌─▌──▐─▌
-─────█─█──▐▌█
-💣💣💣💣💣💣💣💣
+────────────────
+
  `,
 			}
 		);
