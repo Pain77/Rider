@@ -14,16 +14,16 @@
   "repository": "https://github.com/Pain77/Rider.git",
   "logo": "https://mocah.org/uploads/posts/342905-Medusa-Fate-Grand-Order-FGO-Video-Game-Fate-Series-Anime-Girls-Fate-Stay-Night.jpg",
   "success_url": "/",
-  "env": {
-           "description": "Prefix of your bot"
+    "env": {
+        "PREFIX": {
+            "description": "Prefix of your bot"
         },
         "SESSION": {
             "description": "A string for the session to be classified and to get access to the server endpoints"
         },
         "MODS": {
             "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-            "required": false,
-          "value": "919662713165"    
+            "required": false
         },
         "CRON": {
             "description": "Cron string to clear chats in a cycle",
