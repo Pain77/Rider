@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const kacchan = 
-			"https://c.tenor.com/93eUTFPXSyYAAAPo/bakugo-my-hero-academia.mp4";
+			"https://c.tenor.com/EGTzfBXePfMAAAPo/fate-fate-stay-night.mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: kacchan },
@@ -28,32 +28,29 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `- 🅆🄴🄴🄱 🎐
+				caption: `-🅆🄴🄴🄱 🍁
 
-🎗 ${this.client.config.prefix}𝙖𝙣𝙞𝙢𝙚 
-🎗 ${this.client.config.prefix}𝙖𝙣𝙞𝙢𝙚𝙥𝙖𝙥𝙚𝙧 
-🎗 ${this.client.config.prefix}𝙖𝙣𝙞𝙢𝙚𝙦𝙪𝙤𝙩𝙚 
-🎗 ${this.client.config.prefix}𝙘𝙝𝙖𝙧𝙖𝙘𝙩𝙚𝙧 
-🎗 ${this.client.config.prefix}𝙜𝙚𝙣𝙨𝙝𝙞𝙣𝙘𝙝𝙖𝙧𝙖𝙘𝙩𝙚𝙧 
-🎗 ${this.client.config.prefix}𝙝𝙖𝙞𝙜𝙪𝙨𝙝𝙖 
-🎗 ${this.client.config.prefix}𝙠𝙞𝙩𝙨𝙪𝙣𝙚 
-🎗 ${this.client.config.prefix}𝙡𝙤𝙡𝙞 
-🎗 ${this.client.config.prefix}𝙢𝙖𝙣𝙜𝙖 
-🎗 ${this.client.config.prefix}𝙣𝙚𝙠𝙤 
-🎗 ${this.client.config.prefix}𝙥𝙤𝙠𝙚𝙢𝙤𝙣 
-🎗 ${this.client.config.prefix}𝙧𝙥𝙖𝙥𝙚𝙧 
-🎗 ${this.client.config.prefix}𝙨𝙖𝙪𝙘𝙚 
-🎗 ${this.client.config.prefix}𝙫𝙩𝙪𝙗𝙚𝙧 
-🎗 ${this.client.config.prefix}𝙬𝙖𝙞𝙛𝙪 
-🎗 ${this.client.config.prefix}𝙬𝙖𝙡𝙡𝙥𝙖𝙥𝙚𝙧
-    
-    
-───▄▄─▄████▄▐▄▄▄▌
-──▐──████▀███▄█▄▌
-▐─▌──█▀▌──▐▀▌▀█▀
-─▀───▌─▌──▐─▌
-─────█─█──▐▌█
-💣💣💣💣💣💣💣💣
+────────────────
+
+〽 ${this.client.config.prefix}𝙖𝙣𝙞𝙢𝙚 
+〽 ${this.client.config.prefix}𝙖𝙣𝙞𝙢𝙚𝙥𝙖𝙥𝙚𝙧 
+〽 ${this.client.config.prefix}𝙖𝙣𝙞𝙢𝙚𝙦𝙪𝙤𝙩𝙚 
+〽 ${this.client.config.prefix}𝙘𝙝𝙖𝙧𝙖𝙘𝙩𝙚𝙧 
+〽 ${this.client.config.prefix}𝙜𝙚𝙣𝙨𝙝𝙞𝙣𝙘𝙝𝙖𝙧𝙖𝙘𝙩𝙚𝙧 
+〽 ${this.client.config.prefix}𝙝𝙖𝙞𝙜𝙪𝙨𝙝𝙖 
+〽 ${this.client.config.prefix}𝙠𝙞𝙩𝙨𝙪𝙣𝙚 
+〽 ${this.client.config.prefix}𝙡𝙤𝙡𝙞 
+〽 ${this.client.config.prefix}𝙢𝙖𝙣𝙜𝙖 
+〽 ${this.client.config.prefix}𝙣𝙚𝙠𝙤 
+〽 ${this.client.config.prefix}𝙥𝙤𝙠𝙚𝙢𝙤𝙣 
+〽 ${this.client.config.prefix}𝙧𝙥𝙖𝙥𝙚𝙧 
+〽 ${this.client.config.prefix}𝙨𝙖𝙪𝙘𝙚 
+〽 ${this.client.config.prefix}𝙫𝙩𝙪𝙗𝙚𝙧 
+〽 ${this.client.config.prefix}𝙬𝙖𝙞𝙛𝙪 
+〽 ${this.client.config.prefix}𝙬𝙖𝙡𝙡𝙥𝙖𝙥𝙚𝙧
+       
+────────────────
+
  `,
 			}
 		);
