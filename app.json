@@ -1,22 +1,21 @@
 {
-    "name": "Rider",
-    "keywords": [
-        "bot",
-        "whatsapp",
-        "stickers",
-        "whatsapp-stickers",
-        "anime",
-        "whatsapp-bot",
-        "whatsapp-sticker-bot",
-        "whatsapp-botto"
-    ],
-    "repository": "https://github.com/Pain77/Rider.git",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUE7NWh2CNVmWdasxYntAoR2Lx8DdKcx5CBQ&usqp=CAU",
-    "success_url": "/",
-    "env": {
-        "PREFIX": {
-            "description": "Prefix of your bot",
-            "value": "!"
+  "name": "Rider",
+  "description": "A WhatsApp Bot With Rich Anime Features.",
+  "keywords": [
+      "bot",
+      "whatsapp",
+      "stickers",
+      "whatsapp-stickers",
+      "anime",
+      "whatsapp-bot",
+      "whatsapp-sticker-bot",
+      "whatsapp-botto"
+  ],
+  "repository": "https://github.com/pain77/Rider",
+  "logo": "https://mocah.org/uploads/posts/342905-Medusa-Fate-Grand-Order-FGO-Video-Game-Fate-Series-Anime-Girls-Fate-Stay-Night.jpg",
+  "success_url": "/",
+  "env": {
+           "description": "Prefix of your bot"
         },
         "SESSION": {
             "description": "A string for the session to be classified and to get access to the server endpoints"
@@ -24,12 +23,12 @@
         "MODS": {
             "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
             "required": false,
-            "value": "919662713165"
+          "value": "919662713165"    
         },
         "CRON": {
             "description": "Cron string to clear chats in a cycle",
             "required": false,
-            "value": "null"
+           "value": "null"
         },
         "MONGO_URI": {
             "description": "A secret String for Mongodb Connection.(Required)"
@@ -42,6 +41,15 @@
             "description": "BrainShop API Brain url",
             "required": false,
             "value": "http://api.brainshop.ai/get?bid=158484&key=AF9RvRrK14AhY46N&uid=[uid]&msg=[msg]"
+        },
+        "TENOR_API_KEY": {
+            "description": "A key used for gif searches",
+            "required": false,
+            "value": "364OVX2CWH8U"
+        },
+        "WEATHER_APPID": {
+            "description": "A key used to see the weather updates",
+            "required": false
         }
     },
     "buildpacks": [
