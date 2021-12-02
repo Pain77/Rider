@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const kacchan = 
-			"https://c.tenor.com/iv8N2t7pEXAAAAPo/bakugou-katsuki-anime.mp4";
+			"https://c.tenor.com/UvSaKUwoIDsAAAPo/rider-fate-heavens-feel.mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: kacchan },
@@ -28,28 +28,25 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `- 🄵🅄🄽 🎐
+				caption: `-🄵🅄🄽 🍁
+				
+────────────────
 
-🎗 ${this.client.config.prefix}𝙛𝙖𝙘𝙩 
-🎗 ${this.client.config.prefix}𝙟𝙤𝙠𝙚 
-🎗 ${this.client.config.prefix}𝙦𝙪𝙤𝙩𝙚 
-🎗 ${this.client.config.prefix}𝙧𝙚𝙖𝙘𝙩 
-🎗 ${this.client.config.prefix}𝙨𝙝𝙞𝙥 
-🎗 ${this.client.config.prefix}𝙩𝙧𝙞𝙜𝙜𝙚𝙧 
-🎗 ${this.client.config.prefix}𝙬𝙝𝙮 
-🎗 ${this.client.config.prefix}𝙘𝙝𝙖𝙩
-🎗 ${this.client.config.prefix}𝙘𝙝𝙚𝙨𝙨
-🎗 ${this.client.config.prefix}𝙠𝙞𝙩𝙩𝙚𝙣
-🎗 ${this.client.config.prefix}𝙩𝙧𝙪𝙩𝙝
-🎗 ${this.client.config.prefix}𝙙𝙖𝙧𝙚
-🎗 ${this.client.config.prefix}𝙢𝙥𝙛𝙥
+〽 ${this.client.config.prefix}𝙛𝙖𝙘𝙩 
+〽 ${this.client.config.prefix}𝙟𝙤𝙠𝙚 
+〽 ${this.client.config.prefix}𝙦𝙪𝙤𝙩𝙚 
+〽 ${this.client.config.prefix}𝙧𝙚𝙖𝙘𝙩 
+〽 ${this.client.config.prefix}𝙨𝙝𝙞𝙥 
+〽 ${this.client.config.prefix}𝙩𝙧𝙞𝙜𝙜𝙚𝙧 
+〽 ${this.client.config.prefix}𝙬𝙝𝙮 
+〽 ${this.client.config.prefix}𝙘𝙝𝙖𝙩
+〽 ${this.client.config.prefix}𝙘𝙝𝙚𝙨𝙨
+〽 ${this.client.config.prefix}𝙠𝙞𝙩𝙩𝙚𝙣
+〽 ${this.client.config.prefix}𝙩𝙧𝙪𝙩𝙝
+〽 ${this.client.config.prefix}𝙙𝙖𝙧𝙚
+〽 ${this.client.config.prefix}𝙢𝙥𝙛𝙥
     
-───▄▄─▄████▄▐▄▄▄▌
-──▐──████▀███▄█▄▌
-▐─▌──█▀▌──▐▀▌▀█▀
-─▀───▌─▌──▐─▌
-─────█─█──▐▌█
-💣💣💣💣💣💣💣💣
+────────────────
  `,
 			}
 		);
