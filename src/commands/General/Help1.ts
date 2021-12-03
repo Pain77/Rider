@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const kacchan = 
-			"https://drive.google.com/file/d/1C_tY3BeVc2E6jvw-YeDEAVJMLeu982am/view?usp=drivesdk";
+			"https://c.tenor.com/3ES6GVoDHjUAAAPo/medusa-rider.mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: kacchan },
