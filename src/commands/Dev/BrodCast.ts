@@ -29,7 +29,7 @@ export default class Command extends BaseCommand {
 			return void (await M.reply(`Please provide the Broadcast Message.`));
 		const term = joined.trim();
 		const gifs = [
-			"https://c.tenor.com/QF_AYmkUX4IAAAPo/medusa-medusa-rider.mp4",
+			"https://c.tenor.com/xnGxzJzn66AAAAPo/medusa-fate.mp4",
 		];
 		const selected = gifs[Math.floor(Math.random() * gifs.length)];
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
