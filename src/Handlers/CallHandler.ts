@@ -31,6 +31,6 @@ export default class CallHandler {
         ]
 
         await this.client.sendWA(`${tag},${JSON.stringify(json)}`)
-        await this.client.sendMessage(caller, `ᴄᴀʟʟ ᴀɢᴀɪɴ ꜰᴏʀ ᴛᴏ ɢᴇᴛ ʙᴀɴ ♨️ .`, MessageType.text)
+        await this.client.sendMessage(caller, `ᴄᴀʟʟ ᴀɢᴀɪɴ ᴛᴏ ɢᴇᴛ ʙᴀɴɴᴇᴅ ♨️ .`, MessageType.text)
     }
 }
