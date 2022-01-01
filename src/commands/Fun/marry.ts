@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
             description: `MARRYS THE ONE YOU LOVE 💖💖💖`,
             category: 'fun',
             usage: `${client.config.prefix}marry [tag user]`,
-            baseXp: 50
+            baseXp: 30
         })
     }
 
