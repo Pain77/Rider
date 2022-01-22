@@ -21,7 +21,7 @@ export default class Command extends BaseCommand {
 		parsedArgs: IParsedArgs
 	): Promise<void> => {
 		const user = M.sender.jid;
-		const chitoge =
+		const rider =
 			"https://c.tenor.com/pgij9sLbS68AAAPo/medusa-rider.mp4";
 		if (!parsedArgs.joined) {
 			const commands = this.handler.commands.keys();
@@ -57,7 +57,7 @@ export default class Command extends BaseCommand {
 					.join(" \n ")}\`\`\`\n\n`;
 			return void this.client.sendMessage(
 				M.from,
-				{ url: chitoge },
+				{ url: rider },
 				MessageType.video,
 				{
 					quoted: M.WAMessage,
